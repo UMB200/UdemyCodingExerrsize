@@ -3,7 +3,7 @@ package com.UmidJavaUdemy;
 import java.time.temporal.ValueRange;
 
 public class MethodOverload {
-    private static final String INVALID_VALUE_MSG = "Invalid value";
+    public static final String INVALID_VALUE_MSG = "Invalid Value";
     public static double calcFeetAndInchesToCentimeters(double feet, double inches){
         ValueRange vr = ValueRange.of(0, 12);
         if(feet >= 0 && vr.isValidValue((long) inches)){

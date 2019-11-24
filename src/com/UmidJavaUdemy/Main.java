@@ -1,7 +1,7 @@
 package com.UmidJavaUdemy;
 
 public class Main {
-
+    public static final String INVALID_VALUE_MSG = "Invalid Value";
     public static void main(String[] args) {
 	// write your code here
 //        SpeedConverter sp = new SpeedConverter();
